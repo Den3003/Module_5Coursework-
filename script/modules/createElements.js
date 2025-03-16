@@ -7,9 +7,9 @@ import {modalFormInput} from "./settingInputs.js";
 
 //           заголовок приложения
 
-export const createAppTitle = () => {
+export const createAppTitle = (userName) => {
   const appTitle = document.createElement('h3');
-  appTitle.textContent = "Todo App";
+  appTitle.textContent = `Todo App ${userName}`;
 
   return appTitle;
 };

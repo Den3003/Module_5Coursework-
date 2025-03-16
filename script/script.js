@@ -19,7 +19,7 @@ export const initApp = (userName) => {
   const {
     table,
     appForm,
-  } = renderToDo(appContainer);
+  } = renderToDo(appContainer, userName);
 
   //        Функционал
 

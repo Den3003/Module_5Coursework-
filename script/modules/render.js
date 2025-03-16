@@ -8,8 +8,8 @@ import {
 import {appFormButtons} from "./settingButtons.js";
 import {appFormInput} from "./settingInputs.js";
 
-export const renderToDo = (appContainer) => {
-  const title = createAppTitle();
+export const renderToDo = (appContainer, userName) => {
+  const title = createAppTitle(userName);
   const appForm = createAppForm(appFormButtons, appFormInput, 'appForm');
   const {tableWrapper, table} = createTable();
 
